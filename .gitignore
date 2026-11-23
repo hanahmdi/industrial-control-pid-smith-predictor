@@ -1,0 +1,65 @@
+
+# ==========================================
+# MATLAB and Simulink
+# ==========================================
+
+# MATLAB temporary and backup files
+*.asv
+*.autosave
+*.m~
+*.slx~
+*.mdl~
+*.slxc
+
+# Simulink generated files
+slprj/
+sfprj/
+codegen/
+*_ert_rtw/
+*_grt_rtw/
+*.mex*
+
+# MATLAB autosave files
+*.autosave
+
+# ==========================================
+# Python
+# ==========================================
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# ==========================================
+# Generated Outputs
+# ==========================================
+
+# Temporary simulation data
+*.mat
+*.log
+
+# Local generated results
+outputs/
+results/
+temp/
+
+# ==========================================
+# Development Environment
+# ==========================================
+
+.vscode/
+.idea/
+
+# ==========================================
+# Operating System
+# ==========================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
